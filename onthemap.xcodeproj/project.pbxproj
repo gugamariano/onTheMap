@@ -20,12 +20,12 @@
 		823F8BBA1C1339FD0052F44E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823F8BB91C1339FD0052F44E /* LoginViewController.swift */; };
 		823F8BBC1C1350B10052F44E /* OnMapClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823F8BBB1C1350B10052F44E /* OnMapClient.swift */; };
 		823F8BBE1C1385C60052F44E /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823F8BBD1C1385C60052F44E /* AppConfig.swift */; };
+		82961C9B1C5C13A400954695 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82961C991C5C13A400954695 /* FBSDKCoreKit.framework */; };
+		82961C9C1C5C13A400954695 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82961C9A1C5C13A400954695 /* FBSDKLoginKit.framework */; };
 		82E745011C27008700A5864E /* SearchStudentLocationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E745001C27008700A5864E /* SearchStudentLocationController.swift */; };
 		82E745031C27060400A5864E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82E745021C27060400A5864E /* MapKit.framework */; };
 		82E745051C27060C00A5864E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82E745041C27060C00A5864E /* CoreLocation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		82E745071C270E7200A5864E /* PostStudentLocationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E745061C270E7200A5864E /* PostStudentLocationController.swift */; };
-		82FB53431C5987E70043ECBD /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82FB53411C5987E70043ECBD /* FBSDKCoreKit.framework */; };
-		82FB53441C5987E70043ECBD /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82FB53421C5987E70043ECBD /* FBSDKLoginKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,12 +65,12 @@
 		823F8BB91C1339FD0052F44E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		823F8BBB1C1350B10052F44E /* OnMapClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnMapClient.swift; sourceTree = "<group>"; };
 		823F8BBD1C1385C60052F44E /* AppConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		82961C991C5C13A400954695 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		82961C9A1C5C13A400954695 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		82E745001C27008700A5864E /* SearchStudentLocationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchStudentLocationController.swift; sourceTree = "<group>"; };
 		82E745021C27060400A5864E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		82E745041C27060C00A5864E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		82E745061C270E7200A5864E /* PostStudentLocationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostStudentLocationController.swift; sourceTree = "<group>"; };
-		82FB53411C5987E70043ECBD /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
-		82FB53421C5987E70043ECBD /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +79,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				82E745051C27060C00A5864E /* CoreLocation.framework in Frameworks */,
-				82FB53431C5987E70043ECBD /* FBSDKCoreKit.framework in Frameworks */,
-				82FB53441C5987E70043ECBD /* FBSDKLoginKit.framework in Frameworks */,
+				82961C9B1C5C13A400954695 /* FBSDKCoreKit.framework in Frameworks */,
+				82961C9C1C5C13A400954695 /* FBSDKLoginKit.framework in Frameworks */,
 				82E745031C27060400A5864E /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -105,8 +105,8 @@
 		8208C48B1C381657004B31E7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				82FB53411C5987E70043ECBD /* FBSDKCoreKit.framework */,
-				82FB53421C5987E70043ECBD /* FBSDKLoginKit.framework */,
+				82961C991C5C13A400954695 /* FBSDKCoreKit.framework */,
+				82961C9A1C5C13A400954695 /* FBSDKLoginKit.framework */,
 				82E745041C27060C00A5864E /* CoreLocation.framework */,
 				82E745021C27060400A5864E /* MapKit.framework */,
 			);
